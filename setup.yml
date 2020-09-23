@@ -1,0 +1,10 @@
+---
+- name: Setup - RHEL
+  hosts: localhost
+  connection: local
+  user: "{{ user }}"
+  gather_facts: yes
+
+  roles:
+    - vscode
+    - vscode-extensions

@@ -1,0 +1,72 @@
+#code --list-extensions
+#code --install-extension
+#code --uninstall-extension
+---
+- name: VSCode extension for Ansible
+  shell: code --install-extension vscoss.vscode-ansible
+
+- name: C# for Visual Studio Code (powered by OmniSharp)
+  shell: code --install-extension ms-dotnettools.csharp
+
+- name: One Dark Theme based on Atom
+  shell: code --install-extension akamud.vscode-theme-onedark
+
+- name: Show TODO, FIXME, etc. comment tags in a tree view
+  shell: code --install-extension Gruntfuggly.todo-tree
+
+- name: Python extension for Visual Studio Code
+  shell: code --install-extension ms-python.python
+
+- name: C/C++ extension for Visual Studio Code
+  shell: code --install-extension ms-vscode.cpptools
+
+- name: Visual Studio Code Remote - Containers
+  shell: code --install-extension ms-vscode-remote.remote-containers
+
+- name: Visual Studio Code Remote - SSH
+  shell: code --install-extension ms-vscode-remote.remote-ssh
+
+- name: Visual Studio Code Remote - SSH - Editing Configuration Files
+  shell: code --install-extension ms-vscode-remote.remote-ssh-edit
+
+- name: Visual Studio Code Remote - WSL
+  shell: code --install-extension ms-vscode-remote.remote-wsl
+
+- name: Visual Studio Code Remote Development Extension Pack
+  shell: code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+
+- name: Language support for Java
+  shell: code --install-extension redhat.java
+
+- name: Code spell checker
+  shell: code --install-extension streetsidesoftware.code-spell-checker
+
+- name: Code spell checker czech
+  shell: code --install-extension streetsidesoftware.code-spell-checker-czech
+
+- name: Code spell checker russian
+  shell: code --install-extension streetsidesoftware.code-spell-checker-russian
+
+- name: PL/SQL (ORACLE) for Visual Studio Code
+  shell: code --install-extension xyz.plsql-language
+
+- name: Markdown Support for Visual Studio Code
+  shell: code --install-extension yzhang.markdown-all-in-one
+
+- name: Visual Studio IntelliCode
+  shell: code --install-extension VisualStudioExptTeam.vscodeintellicode
+
+- name: Debugger for Java
+  shell: code --install-extension vscjava.vscode-java-debug
+
+- name: Java Dependency Viewer
+  shell: code --install-extension vscjava.vscode-java-dependency
+
+- name: Java Extension pack
+  shell: code --install-extension vscjava.vscode-java-pack
+
+- name: Java Test Runner
+  shell: code --install-extension vscjava.vscode-java-test
+
+- name: Maven for Java
+  shell: code --install-extension vscjava.vscode-maven

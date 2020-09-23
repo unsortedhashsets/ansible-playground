@@ -1,0 +1,19 @@
+---
+- name: Add the Microsoft rpm key
+  rpm_key:
+    state: present
+    key: https://packages.microsoft.com/keys/microsoft.asc
+
+- name: Enable the VS Code repository
+  copy:
+    src: vscode.repo
+    dest: /etc/yum.repos.d/vscode.repo
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Install the latest version of VS Code
+  yum:
+    name: code
+    state: latest
+  become: yes
